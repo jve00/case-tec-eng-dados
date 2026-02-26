@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual env
+.venv/
+
+# Spark artifacts
+.metastore_db/
+spark-warehouse/
+derby.log
+
+# Data outputs
+data/payments/
+data/output/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
